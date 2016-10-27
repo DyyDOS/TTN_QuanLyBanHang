@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS_NHANVIEN.cs" />
     <Compile Include="BUS_PHANQUYEN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
