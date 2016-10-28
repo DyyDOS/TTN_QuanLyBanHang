@@ -561,26 +561,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
         private DevExpress.XtraGrid.GridControl grcMatHang;
-        private DevExpress.XtraGrid.Views.Grid.GridView grdMatHang;
-        private DevExpress.XtraNavBar.NavBarGroup navBarGroup1;
-        private DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer1;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtMaMH;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtTenNCC;
-        private System.Windows.Forms.TextBox txtDonGia;
-        private System.Windows.Forms.TextBox txtSoLuong;
-        private System.Windows.Forms.TextBox txtTenMH;
-        private System.Windows.Forms.TextBox txtSoLuongCon;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtMaLoaiTien;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+
         private System.Windows.Forms.TextBox txtGiaBan;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dtpNgayNhap;
