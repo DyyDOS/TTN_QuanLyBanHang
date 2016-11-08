@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="BUS_MATHANG.cs" />
+=======
+    <Compile Include="BUS_NHACUNGCAP.cs" />
+>>>>>>> refs/remotes/origin/thanhtung
     <Compile Include="BUS_PHANQUYEN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
