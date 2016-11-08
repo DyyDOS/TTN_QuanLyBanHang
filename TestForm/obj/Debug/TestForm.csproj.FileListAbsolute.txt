@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\GitHub\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
 =======
 F:\Github\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
@@ -7,3 +8,6 @@ F:\Github\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
 =======
 C:\data\TTNhom\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
 >>>>>>> refs/remotes/origin/max
+=======
+D:\github\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
+>>>>>>> refs/remotes/origin/Doan-Thieu
