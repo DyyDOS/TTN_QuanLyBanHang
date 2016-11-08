@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\GitHub\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
+=======
+F:\Github\TTN_QuanLyBanHang\TestForm\bin\Debug\TestForm.exe.config
+>>>>>>> refs/remotes/origin/KCS

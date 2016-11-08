@@ -44,10 +44,14 @@
   <ItemGroup>
     <Compile Include="DAO_DATABASE.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="DAO_MATHANG.cs" />
 =======
     <Compile Include="DAO_NHACUNGCAP.cs" />
 >>>>>>> refs/remotes/origin/thanhtung
+=======
+    <Compile Include="DAO_HOADON.cs" />
+>>>>>>> refs/remotes/origin/KCS
     <Compile Include="DAO_PHANQUYEN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
