@@ -44,6 +44,7 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="BUS_MATHANG.cs" />
 =======
     <Compile Include="BUS_NHACUNGCAP.cs" />
@@ -51,6 +52,9 @@
 =======
     <Compile Include="BUS_HOADON.cs" />
 >>>>>>> refs/remotes/origin/KCS
+=======
+    <Compile Include="BUS_KHACHHANG.cs" />
+>>>>>>> refs/remotes/origin/max
     <Compile Include="BUS_PHANQUYEN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
