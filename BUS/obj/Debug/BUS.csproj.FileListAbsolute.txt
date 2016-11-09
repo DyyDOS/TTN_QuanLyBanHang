@@ -18,3 +18,13 @@ D:\HocTap\TestForm\BUS\bin\Debug\DTO.pdb
 D:\HocTap\TestForm\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 D:\HocTap\TestForm\BUS\obj\Debug\BUS.dll
 D:\HocTap\TestForm\BUS\obj\Debug\BUS.pdb
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\BUS.dll
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\BUS.pdb
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\DAO.dll
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\DTO.dll
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\Sqlhelper.dll
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\DAO.pdb
+D:\GitHub\TTN_QuanLyBanHang\BUS\bin\Debug\DTO.pdb
+D:\GitHub\TTN_QuanLyBanHang\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\GitHub\TTN_QuanLyBanHang\BUS\obj\Debug\BUS.dll
+D:\GitHub\TTN_QuanLyBanHang\BUS\obj\Debug\BUS.pdb
