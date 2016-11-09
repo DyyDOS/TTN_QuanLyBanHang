@@ -313,6 +313,11 @@ namespace TestForm
             }
         }
 
+        private void barButtonItem2_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Help.ShowHelp(this, "HelpBanhang.chm");
+        }
+
      
 
     }

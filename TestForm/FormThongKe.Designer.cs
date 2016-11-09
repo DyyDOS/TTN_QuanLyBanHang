@@ -31,15 +31,16 @@
             this.components = new System.ComponentModel.Container();
             DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
             DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.quanLyBanHangDataSet = new TestForm.QuanLyBanHangDataSet();
-            this.pRTHONGKEMATHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pR_THONGKE_MATHANGTableAdapter = new TestForm.QuanLyBanHangDataSetTableAdapters.PR_THONGKE_MATHANGTableAdapter();
+            this.pRTHONGKEMATHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.quanLyBanHangDataSet = new TestForm.QuanLyBanHangDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyBanHangDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pRTHONGKEMATHANGBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyBanHangDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // chartControl1
@@ -59,21 +60,23 @@
         series1};
             this.chartControl1.Size = new System.Drawing.Size(904, 452);
             this.chartControl1.TabIndex = 0;
+            chartTitle1.Text = "Số lượng bán được";
+            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle1});
             // 
-            // quanLyBanHangDataSet
+            // pR_THONGKE_MATHANGTableAdapter
             // 
-            this.quanLyBanHangDataSet.DataSetName = "QuanLyBanHangDataSet";
-            this.quanLyBanHangDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.pR_THONGKE_MATHANGTableAdapter.ClearBeforeFill = true;
             // 
             // pRTHONGKEMATHANGBindingSource
             // 
             this.pRTHONGKEMATHANGBindingSource.DataMember = "PR_THONGKE_MATHANG";
             this.pRTHONGKEMATHANGBindingSource.DataSource = this.quanLyBanHangDataSet;
-            this.pRTHONGKEMATHANGBindingSource.Position = 0;
             // 
-            // pR_THONGKE_MATHANGTableAdapter
+            // quanLyBanHangDataSet
             // 
-            this.pR_THONGKE_MATHANGTableAdapter.ClearBeforeFill = true;
+            this.quanLyBanHangDataSet.DataSetName = "QuanLyBanHangDataSet";
+            this.quanLyBanHangDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // FormThongKe
             // 
@@ -88,8 +91,8 @@
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyBanHangDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pRTHONGKEMATHANGBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyBanHangDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }

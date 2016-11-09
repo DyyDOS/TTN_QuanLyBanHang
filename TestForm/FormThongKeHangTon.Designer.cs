@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
             DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             this.pR_THONGKE_SOLUONGCONTableAdapter = new TestForm.QuanLyBanHangDataSet1TableAdapters.PR_THONGKE_SOLUONGCONTableAdapter();
             this.pRTHONGKESOLUONGCONBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -59,6 +60,9 @@
         series1};
             this.chartControl1.Size = new System.Drawing.Size(949, 579);
             this.chartControl1.TabIndex = 0;
+            chartTitle1.Text = "Số lượng còn của từng mặt hàng";
+            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle1});
             // 
             // pR_THONGKE_SOLUONGCONTableAdapter
             // 
