@@ -14,11 +14,3 @@ D:\HocTap\TestForm\DAO\bin\Debug\DTO.pdb
 D:\HocTap\TestForm\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 D:\HocTap\TestForm\DAO\obj\Debug\DAO.dll
 D:\HocTap\TestForm\DAO\obj\Debug\DAO.pdb
-D:\HocTap\TTN-BanHang\DAO\bin\Debug\DAO.dll
-D:\HocTap\TTN-BanHang\DAO\bin\Debug\DAO.pdb
-D:\HocTap\TTN-BanHang\DAO\bin\Debug\DTO.dll
-D:\HocTap\TTN-BanHang\DAO\bin\Debug\Sqlhelper.dll
-D:\HocTap\TTN-BanHang\DAO\bin\Debug\DTO.pdb
-D:\HocTap\TTN-BanHang\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
-D:\HocTap\TTN-BanHang\DAO\obj\Debug\DAO.dll
-D:\HocTap\TTN-BanHang\DAO\obj\Debug\DAO.pdb

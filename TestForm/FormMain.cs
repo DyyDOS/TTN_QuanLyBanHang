@@ -23,12 +23,40 @@ namespace TestForm
         #region form Main
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            
+            int t = 0;
+            foreach (DevExpress.XtraTab.XtraTabPage tab in xtraTabControl1.TabPages)
+            {
+                if (tab.Text == "Nhân viên")
+                {
+                    xtraTabControl1.SelectedTabPage = tab;
+                    t = 1;
+                }
+            }
+
+            if (t == 1)
+            { }
+            else
+            {// Nếu chưa có TAb này thì gọi hàm Addtab xây dựng ở trên để Add Tab con vào
+                clsAddTab.AddTab(xtraTabControl1, "", "Nhân viên", new FormNhanVien());
+            }
         }
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-           
+            int t = 0;
+            foreach (DevExpress.XtraTab.XtraTabPage tab in xtraTabControl1.TabPages)
+            {
+                if (tab.Text == "Bán hàng")
+                {
+                    xtraTabControl1.SelectedTabPage = tab;
+                    t = 1;
+                }
+            }
+            if (t == 0)
+               
+            {// Nếu chưa có TAb này thì gọi hàm Addtab xây dựng ở trên để Add Tab con vào
+                clsAddTab.AddTab(xtraTabControl1, "", "Bán hàng", new FormBanHang());
+            }
         }
 
         private void xtraTabControl1_ControlAdded(object sender, ControlEventArgs e)
@@ -43,7 +71,19 @@ namespace TestForm
 
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            
+            int t = 0;
+            foreach (DevExpress.XtraTab.XtraTabPage tab in xtraTabControl1.TabPages)
+            {
+                if (tab.Text == "Mặt hàng")
+                {
+                    xtraTabControl1.SelectedTabPage = tab;
+                    t = 1;
+                }
+            }
+            if (t == 0)
+            {// Nếu chưa có TAb này thì gọi hàm Addtab xây dựng ở trên để Add Tab con vào
+                clsAddTab.AddTab(xtraTabControl1, "", "Mặt hàng", new FormMatHang());
+            }
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -69,17 +109,52 @@ namespace TestForm
      
         private void btnQLKH_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-           
+            int t = 0;
+            foreach (DevExpress.XtraTab.XtraTabPage tab in xtraTabControl1.TabPages)
+            {
+                if (tab.Text == "Khách hàng")
+                {
+                    xtraTabControl1.SelectedTabPage = tab;
+                    t = 1;
+                }
+            }
+            if (t == 0)
+            {// Nếu chưa có TAb này thì gọi hàm Addtab xây dựng ở trên để Add Tab con vào
+                clsAddTab.AddTab(xtraTabControl1, "", "Khách hàng", new FormKhachHang());
+            }
         }
 
         private void btnQLQGD_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            
-          
+            int t = 0;
+            foreach (DevExpress.XtraTab.XtraTabPage tab in xtraTabControl1.TabPages)
+            {
+                if (tab.Text == "Nhà cung cấp")
+                {
+                    xtraTabControl1.SelectedTabPage = tab;
+                    t = 1;
+                }
+            }
+            if (t == 0)
+            {// Nếu chưa có TAb này thì gọi hàm Addtab xây dựng ở trên để Add Tab con vào
+                clsAddTab.AddTab(xtraTabControl1, "", "Nhà cung cấp", new FormNhaCungCap());
+            }
         }
         private void btnPhanQuyen_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-           
+            int t = 0;
+            foreach (DevExpress.XtraTab.XtraTabPage tab in xtraTabControl1.TabPages)
+            {
+                if (tab.Text == "phân quyền")
+                {
+                    xtraTabControl1.SelectedTabPage = tab;
+                    t = 1;
+                }
+            }
+            if (t == 0)
+            {// Nếu chưa có TAb này thì gọi hàm Addtab xây dựng ở trên để Add Tab con vào
+                clsAddTab.AddTab(xtraTabControl1, "", "Phân quyền", new FormPhanQuyen());
+            }
             
         }
         #endregion
@@ -201,7 +276,7 @@ namespace TestForm
 
         private void barButtonItem1_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-          
+           
         }
 
      
