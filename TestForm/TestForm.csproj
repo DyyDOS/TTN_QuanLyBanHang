@@ -32,6 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v14.2" />
@@ -81,11 +85,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add.cs" />
+    <Compile Include="FormBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBanHang.Designer.cs">
+      <DependentUpon>FormBanHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHoaDonChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHoaDonChiTiet.Designer.cs">
+      <DependentUpon>FormHoaDonChiTiet.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -93,19 +115,98 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMatHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMatHang.Designer.cs">
       <DependentUpon>FormMatHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhaCungCap.Designer.cs">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhanVien.Designer.cs">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPhanQuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPhanQuyen.Designer.cs">
+      <DependentUpon>FormPhanQuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongKe.Designer.cs">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThongKeHangTon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongKeHangTon.Designer.cs">
+      <DependentUpon>FormThongKeHangTon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyBanHangDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyBanHangDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyBanHangDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyBanHangDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormBanHang.resx">
+      <DependentUpon>FormBanHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHoaDonChiTiet.resx">
+      <DependentUpon>FormHoaDonChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMatHang.resx">
+      <DependentUpon>FormMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhanVien.resx">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPhanQuyen.resx">
+      <DependentUpon>FormPhanQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongKe.resx">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongKeHangTon.resx">
+      <DependentUpon>FormThongKeHangTon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -118,6 +219,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.Config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -131,6 +235,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="QuanLyBanHangDataSet.xsc">
+      <DependentUpon>QuanLyBanHangDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyBanHangDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyBanHangDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyBanHangDataSet.xss">
+      <DependentUpon>QuanLyBanHangDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyBanHangDataSet1.xsc">
+      <DependentUpon>QuanLyBanHangDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyBanHangDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyBanHangDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyBanHangDataSet1.xss">
+      <DependentUpon>QuanLyBanHangDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Resources\AboutMe.png" />
   </ItemGroup>
   <ItemGroup>
