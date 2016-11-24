@@ -8,7 +8,7 @@ D:\HocTap\TestForm\DTO\bin\Debug\DTO.pdb
 D:\HocTap\TestForm\DTO\obj\Debug\DTO.dll
 D:\HocTap\TestForm\DTO\obj\Debug\DTO.pdb
 D:\HocTap\TestForm\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
-D:\HocTap\TTN-BanHang\DTO\bin\Debug\DTO.dll
-D:\HocTap\TTN-BanHang\DTO\bin\Debug\DTO.pdb
-D:\HocTap\TTN-BanHang\DTO\obj\Debug\DTO.dll
-D:\HocTap\TTN-BanHang\DTO\obj\Debug\DTO.pdb
+D:\GitHub\TTN_QuanLyBanHang\DTO\bin\Debug\DTO.dll
+D:\GitHub\TTN_QuanLyBanHang\DTO\bin\Debug\DTO.pdb
+D:\GitHub\TTN_QuanLyBanHang\DTO\obj\Debug\DTO.dll
+D:\GitHub\TTN_QuanLyBanHang\DTO\obj\Debug\DTO.pdb
